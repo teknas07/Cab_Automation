@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51320" started-at="2021-07-14T22:58:05 IST" finished-at="2021-07-14T22:58:56 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51320" started-at="2021-07-14T22:58:05 IST" finished-at="2021-07-14T22:58:56 IST">
+      <class name="com.goibibo.test.CabPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="setUp" is-config="true" duration-ms="31352" started-at="2021-07-14T22:58:05 IST" finished-at="2021-07-14T22:58:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyDefaultSection()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyDefaultSection" duration-ms="299" started-at="2021-07-14T22:58:36 IST" finished-at="2021-07-14T22:58:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultSection -->
+        <test-method status="PASS" signature="verifyCabButtonText()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyCabButtonText" duration-ms="5262" started-at="2021-07-14T22:58:37 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyDefaultSection" finished-at="2021-07-14T22:58:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCabButtonText -->
+        <test-method status="PASS" signature="verifyOneWaySelected()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyOneWaySelected" duration-ms="122" started-at="2021-07-14T22:58:42 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyCabButtonText" finished-at="2021-07-14T22:58:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOneWaySelected -->
+        <test-method status="PASS" signature="verifyFromLocation()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyFromLocation" duration-ms="1997" started-at="2021-07-14T22:58:42 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyOneWaySelected" finished-at="2021-07-14T22:58:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFromLocation -->
+        <test-method status="PASS" signature="verifyDropDownNotActivatedTest()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyDropDownNotActivatedTest" duration-ms="1708" started-at="2021-07-14T22:58:44 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyFromLocation" finished-at="2021-07-14T22:58:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDropDownNotActivatedTest -->
+        <test-method status="PASS" signature="verifyDestinationLocation()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyDestinationLocation" duration-ms="1415" started-at="2021-07-14T22:58:46 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyDropDownNotActivatedTest" finished-at="2021-07-14T22:58:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDestinationLocation -->
+        <test-method status="PASS" signature="verifyPickUpDate()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyPickUpDate" duration-ms="2451" started-at="2021-07-14T22:58:47 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyDestinationLocation" finished-at="2021-07-14T22:58:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPickUpDate -->
+        <test-method status="PASS" signature="verifyPickUpMonth()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyPickUpMonth" duration-ms="84" started-at="2021-07-14T22:58:50 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyPickUpDate" finished-at="2021-07-14T22:58:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPickUpMonth -->
+        <test-method status="PASS" signature="verifyPickUpTime()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyPickUpTime" duration-ms="2041" started-at="2021-07-14T22:58:50 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyPickUpMonth" finished-at="2021-07-14T22:58:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPickUpTime -->
+        <test-method status="PASS" signature="verifySearchCabs()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifySearchCabs" duration-ms="1035" started-at="2021-07-14T22:58:52 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyPickUpTime" finished-at="2021-07-14T22:58:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchCabs -->
+        <test-method status="PASS" signature="verifyCarModelIsSelected()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyCarModelIsSelected" duration-ms="1464" started-at="2021-07-14T22:58:53 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifySearchCabs" finished-at="2021-07-14T22:58:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCarModelIsSelected -->
+        <test-method status="PASS" signature="cabsModelTest()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="cabsModelTest" duration-ms="709" started-at="2021-07-14T22:58:54 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyCarModelIsSelected" finished-at="2021-07-14T22:58:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cabsModelTest -->
+        <test-method status="PASS" signature="verifyLowPrice()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyLowPrice" duration-ms="151" started-at="2021-07-14T22:58:55 IST" depends-on-methods="com.goibibo.test.CabPageTest.cabsModelTest" finished-at="2021-07-14T22:58:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLowPrice -->
+        <test-method status="PASS" signature="verifyCabsTitle()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="verifyCabsTitle" duration-ms="33" started-at="2021-07-14T22:58:55 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyLowPrice" finished-at="2021-07-14T22:58:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCabsTitle -->
+        <test-method status="PASS" signature="LowestPriceTest()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="LowestPriceTest" duration-ms="321" started-at="2021-07-14T22:58:55 IST" depends-on-methods="com.goibibo.test.CabPageTest.verifyCabsTitle" finished-at="2021-07-14T22:58:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LowestPriceTest -->
+        <test-method status="PASS" signature="displayModelAndPrice()[pri:0, instance:com.goibibo.test.CabPageTest@587d1d39]" name="displayModelAndPrice" duration-ms="634" started-at="2021-07-14T22:58:55 IST" depends-on-methods="com.goibibo.test.CabPageTest.LowestPriceTest" finished-at="2021-07-14T22:58:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayModelAndPrice -->
+      </class> <!-- com.goibibo.test.CabPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

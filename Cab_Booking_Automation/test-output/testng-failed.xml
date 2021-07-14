@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.goibibo.test.CabPageTest">
+        <methods>
+          <include name="LowestPriceTest"/>
+          <include name="verifyLowPrice"/>
+          <include name="verifyCabButtonText"/>
+          <include name="verifyPickUpTime"/>
+          <include name="verifyDefaultSection"/>
+          <include name="verifyFromLocation"/>
+          <include name="verifyCabsTitle"/>
+          <include name="displayModelAndPrice"/>
+          <include name="verifyDropDownNotActivatedTest"/>
+          <include name="verifyDestinationLocation"/>
+          <include name="verifyPickUpMonth"/>
+          <include name="cabsModelTest"/>
+          <include name="verifySearchCabs"/>
+          <include name="verifyOneWaySelected"/>
+          <include name="verifyPickUpDate"/>
+          <include name="verifyCarModelIsSelected"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.goibibo.test.CabPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
